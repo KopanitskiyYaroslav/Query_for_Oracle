@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Query.jnlp">
+  <information>
+    <title>Query</title>
+    <vendor>Piligrim</vendor>
+    <description>Query</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Query.jar" size="232509" download="eager" />
+    <jar href="ojdbc6.jar" size="2111338" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Query"  name="Query" />
+  <update check="background"/>
+</jnlp>
