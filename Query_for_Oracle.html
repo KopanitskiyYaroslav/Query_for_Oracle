@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Query_for_Oracle.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedQuery_for_Oracle_id() {
+        dtjava.embed(
+            {
+                id : 'Query_for_Oracle_id',
+                url : 'Query_for_Oracle.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '600',
+                height : '400'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedQuery_for_Oracle_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>Query_for_Oracle</b></h2>
+  <b>Webstart:</b> <a href='Query_for_Oracle.jnlp' onclick="return launchApplication('Query_for_Oracle.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
