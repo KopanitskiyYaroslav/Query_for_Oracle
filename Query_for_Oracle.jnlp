@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Query_for_Oracle.jar" size="37937" download="eager" />
+    <jar href="Query_for_Oracle.jar" size="37942" download="eager" />
     <jar href="ojdbc6.jar" size="2111338" download="eager" />
   </resources>
   <jfx:javafx-desc  width="600" height="400" main-class="Query"  name="Query_for_Oracle" />
